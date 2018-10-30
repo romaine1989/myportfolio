@@ -1,0 +1,175 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+}
+
+.clear {
+	clear: both;
+}
+
+#container-main {
+	padding: 20px 20px 0 20px;
+}
+
+#myTitle {
+	margin: auto;
+	text-align: center;
+	width: 700px;
+	background: white;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	background: white;
+	color: grey;
+}
+
+.container {
+	padding: 30px;
+}
+
+
+/******* FONT ********/
+
+h1{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 400;
+	font-size: 2.5em;
+	margin: 20px 0;
+}
+
+p {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#myTitle h1 {
+	/**text-transform: capitalize!important;
+	letter-spacing: 3px;
+	color: black;
+    text-shadow: 2px 2px 3px #e4e4e4;**/
+
+    text-transform: uppercase!important;
+    text-shadow: 2px 2px 3px #e4e4e4;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+h2 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+    text-shadow: 2px 2px 3px #e4e4e4;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+/******* FONT END ********/
+
+
+
+
+
+/******* BIO BOX **********/
+
+#bioBox {
+	position: relative;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	margin-bottom: 63em;
+}
+
+#about {
+	float: right;
+	width: 30%;
+	background: white;
+	margin-right: 20%;
+    margin-left: -20%;
+    margin-top: 5%;
+}
+
+#picBox {
+	float: left;
+	margin-left: 20%;
+	margin-right: -20%;
+	width: 28.5em;
+	background-color: white;
+	text-align: center;
+}
+
+#myPic {
+	width: 100%;
+}
+
+#myPicMob {
+	display: none;
+	border-radius: 50%;
+}
+
+#contact {
+	text-align: center;
+	background-color: white;
+}
+
+#socials {
+	padding: 0px;
+}
+
+#socials li {
+	display: inline;
+}
+
+#socials li:nth-child(1) img, #socials li:nth-child(2) img, #socials li:nth-child(3) img {
+	width: 15%; 
+}
+
+
+#contact a {
+	text-decoration: none;
+	color: initial;
+}
+
+#contact a:hover {
+	color: cadetblue;
+}
+
+/******* BIO BOX END **********/
+
+
+
+
+
+@media screen and (max-width: 1000px){
+	#myTitle {
+	width: 100%;
+}
+
+#about, #picBox {
+	float: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+#about h2 {
+	text-align: center;
+}
+
+#bioBox {
+	width: 80%;
+	margin-bottom: 3em;
+}
+
+#myPic {
+	display: none;
+}
+
+#myPicMob {
+	display: initial;
+}
+
+#picBox {
+	text-align: center;
+	padding-top: 2em;
+	padding-bottom: 0.5em;
+}
+}
